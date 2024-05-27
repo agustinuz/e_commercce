@@ -1,0 +1,139 @@
+GET http://localhost:5000/getUsers
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsIm5hbWUiOiJBZ3VzdGludXMgU2l0b21wdWwiLCJlbWFpbCI6InRpbnVzMEBnbWFpbC5jb20iLCJ1c2VyUm9sZSI6ImFkbWluIiwiaWF0IjoxNzE1ODc3OTcyLCJleHAiOjE3MTU4ODE1NzJ9.rUtXNPkUaHSE100GC012OYCVqUBYboBzKY1gpqDwx5o
+
+###
+POST  http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name":"Agustinus Sitompul",
+    "email":"tinus0@gmail.com",
+    "password":"123456",
+    "confPassword":"123456",
+    "role": "Admin"
+    
+}
+
+
+###
+POST  http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email" : "tinus0@gmail.com",
+    "password": "123456"
+}
+
+
+###
+PUT  http://localhost:5000/updateKategori
+Content-Type: application/json
+
+{
+    "id": "3",
+    "nameKategori": "Makanan Kuda"
+}
+
+
+
+###
+POST  http://localhost:5000/createProduct
+Content-Type: application/json
+
+{
+    "name": "recovery3",
+    "price": "200.000",
+    "description": "makanan kesehatan kucing",
+    "image": "recovery.png",
+    "kategori_id": 6,
+    "merk_id": 1
+}
+
+
+###
+PUT  http://localhost:5000/updateProduct
+Content-Type: application/json
+
+{
+    "id": "11",
+    "name": "Recovery",
+    "price": "200000",
+    "description": "makanan kesehatan kucing",
+    "image": "recovery.png",
+    "kategori_id": 9,
+    "merk_id": 1
+}
+
+
+###
+POST  http://localhost:5000/createAppointment
+Content-Type: application/json
+
+{
+    "Owner": "Agustinus",
+    "patientName": "Frans",
+    "tanggalLahir": "11-06-2014",
+    "jenisKelamin": "LakiLaki",
+    "Spesies": "Anjing",
+    "Ras": "Buldog",
+    "typePengobatan": "Berobat",
+    "Schedule": "9"
+}
+
+
+###
+DELETE  http://localhost:5000/deleteSchedule
+Content-Type: application/json
+
+{
+  "id": "10"
+}
+
+
+###
+POST  http://localhost:5000/createSchedule
+Content-Type: application/json
+
+{
+  "date": "2024-06-19",
+  "time": "10:00:00"
+}
+
+
+###
+DELETE  http://localhost:5000/deleteProduct
+Content-Type: application/json
+
+{
+    "id": "12"
+}
+
+
+
+###
+PUT  http://localhost:5000/updateAppointment
+Content-Type: application/json
+
+{
+    "id": "1",
+    "Owner": "Agustinus Sitompul",
+    "patientName": "Frans Diego",
+    "tanggalLahir": "10-09-2014",
+    "jenisKelamin": "Laki-Laki",
+    "Spesies": "Kucing",
+    "Ras": "French Buldog",
+    "typePengobatan": "Grooming",
+    "Schedule": "2"
+}
+
+
+
+###
+PUT  http://localhost:5000/updateSchedule
+Content-Type: application/json
+
+{
+    "id": "9",
+  "date": "2024-06-29",
+  "time": "15:00:00"
+}

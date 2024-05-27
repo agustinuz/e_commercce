@@ -1,0 +1,13 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+{' '} Ini digunakan di sini untuk menambahkan jarak visual antar elemen.
+to connect to database mysql (npm i mysql express cors nodemon)
+
+Setidaknya satu digit ((?=.*\d))
+Minimal satu huruf kecil ((?=.*[a-z]))
+Minimal satu huruf besar ((?=.*[A-Z]))
+Karakter yang diperbolehkan hanya alfanumerik (huruf dan angka) ([a-zA-Z0-9])
+Panjang minimal 8 karakter ({8,})
+Perbedaan utama antara kedua pola ini terletak pada spesifikasi karakter yang diperbolehkan:

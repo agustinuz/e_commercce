@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth; /* Menambahkan scroll behavior yang halus */
+}
+/* Navbar */
+.navbar-nav a:hover {
+  font-size: 18px;
+  background-color: rgba(
+    40,
+    167,
+    69,
+    0.7
+  ); /* Warna latar belakang dengan transparansi */
+  color: rgb(149, 118, 118) !important; /* Warna teks saat hover */
+  border-radius: 10px; /* Membuat sudut tombol lebih bulat */
+}
+
+.banner-image {
+  background-image: url("/public/asset/picture1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px; /* Menambahkan border-radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan shadow */
+  max-width: 95%; /* Mengatur ukuran maksimal background image */
+  height: auto; /* Membuat tinggi gambar menyesuaikan */
+  margin: 40px auto; /* Mengatur margin agar gambar tidak menempel di tepi */
+  padding: 80px; /* Mengatur padding untuk memberi ruang pada gambar */
+}
+
+.container-fluid {
+  max-width: 90%; /* Membuat kontainer mengikuti lebar navbar */
+}
+.title h2::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 50px;
+  background-color: var(--bs-pink);
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.Card.img {
+  background-image: url(/public/asset/picture2.jpg);
+}
+
+.section-content {
+  border-radius: 20px; /* Menambahkan border-radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan shadow */
+  max-width: 95%; /* Mengatur ukuran maksimal konten */
+  margin: 20px auto; /* Mengatur margin agar konten tidak menempel di tepi */
+  padding: 20px; /* Mengatur padding untuk memberi ruang pada konten */
+  background-color: #d5dfc4; /* Menambahkan warna latar belakang putih */
+}

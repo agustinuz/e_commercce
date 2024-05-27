@@ -1,0 +1,11 @@
+.appointment-image {
+  height: 400px; /* Menyesuaikan tinggi gambar */
+  object-fit: cover; /* Memastikan gambar tetap proporsional */
+  border-top-left-radius: 10px; /* Sudut atas kiri */
+  border-top-right-radius: 10px; /* Sudut atas kanan */
+}
+
+.card-text {
+  font-size: 0.875rem; /* Mengurangi ukuran font */
+  margin-bottom: 1rem; /* Mengurangi margin bawah */
+}
