@@ -43,7 +43,7 @@ function Forgot() {
                     </div>
                     <div class="card-footer text-center py-3">
                       <div class="small">
-                        <Link to="/Signup">Need an account? Sign up!</Link>
+                        <Link to="/Register">Need an account? Sign up!</Link>
                       </div>
                     </div>
                   </div>
